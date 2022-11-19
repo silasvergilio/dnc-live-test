@@ -1,225 +1,153 @@
-body {
-    background: #000000;
-}
-
 .image-logo {
     position: absolute;
-    width: 165px;
-    height: 29px;
-    left: 673px;
-    top: 25px;
-
-}
-
-.menu {
-    position: absolute;
-    width: 169px;
-    height: 74px;
-    left: 700px;
-    top: 54px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 29px;
-    line-height: 35px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #FFFFFF;
-}
-
-.sign {
-    position: absolute;
-    width: 169px;
-    height: 74px;
-    left: 690px;
-    top: 97px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 29px;
-    line-height: 35px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #FFFFFF;
+    width: 329px;
+    height: 57px;
+    left: 94px;
+    top: 55px;
 }
 
 .title {
     position: absolute;
     width: 350px;
     height: 112px;
-    left: 650px;
-    top: 159px;
+    left: 94px;
+    top: 112px;
 
-    font-family: 'Inter';
+    font-family: 'Times New Roman';
     font-style: normal;
     font-weight: 700;
     font-size: 54px;
-    line-height: 65px;
+    line-height: 62px;
     display: flex;
     align-items: center;
     text-align: center;
-
-    color: #FFFFFF;
 }
 
 .subtitle {
     position: absolute;
     width: 473px;
     height: 74px;
-    left: 519px;
-    top: 263px;
+    left: 94px;
+    top: 210px;
 
-    font-family: 'Inter';
+    font-family: 'Times New Roman';
     font-style: normal;
     font-weight: 400;
     font-size: 29px;
-    line-height: 35px;
+    line-height: 33px;
     display: flex;
     align-items: center;
-    text-align: center;
 
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .input-label-email {
     position: absolute;
     width: 379px;
     height: 74px;
-    left: 473px;
-    top: 345px;
+    left: 94px;
+    top: 307px;
 
-    font-family: 'Inter';
+    font-family: 'Times New Roman';
     font-style: normal;
     font-weight: 400;
     font-size: 33px;
-    line-height: 40px;
+    line-height: 38px;
     display: flex;
     align-items: center;
 
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .input-label-pass {
     position: absolute;
     width: 379px;
     height: 74px;
-    left: 473px;
-    top: 479px;
+    left: 94px;
+    top: 441px;
 
-    font-family: 'Inter';
+    font-family: 'Times New Roman';
     font-style: normal;
     font-weight: 400;
     font-size: 33px;
-    line-height: 40px;
+    line-height: 38px;
     display: flex;
     align-items: center;
 
-    color: #FFFFFF;
+    color: #000000;
 }
 
-
-
 .input-email {
-    position: relative;
-    width: 50%;
+    position: absolute;
+    width: 566px;
     height: 53px;
-    top: 24rem;
-    left: 40%;
-    background: #7F7F7F;
-    border-radius: 25px;
+    left: 94px;
+    top: 386px;
+    background: #ffffff;
 }
 
 .input-pass {
 
-    position: relative;
-    width: 50%;
+    position: absolute;
+    width: 566px;
     height: 53px;
-    top: 30rem;
-    left: 40%;
+    left: 94px;
+    top: 515px;
 
-    background: #7F7F7F;
-    border-radius: 25px;
-}
-
-@media only screen and (max-width: 700px) {
-    .input-email {
-        width: 100% ;
-        left: 0rem ;
-    }
-
-    .input-pass{
-        left: 0rem;
-        width: 100%;
-    }
+    background: #FFFFFF;
+    border: 2px solid #000000;
 }
 
 .button-send {
-
     position: absolute;
     width: 214px;
     height: 55px;
-    left: 649px;
-    top: 650px;
+    left: 97px;
 
-    background: linear-gradient(90deg, #A18CD1 0%, #FBC2EB 100%);
-    border: 1px solid #000000;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 25px;
+    top: 601px;
 
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 33px;
-    line-height: 40px;
-    color: #000000;
+    font-family: 'Times New Roman';
+    font-style: normal;
 
-
+    background: #EFEFEF;
+    border: 1px solid #000000;
+    border-radius: 5px;
 }
 
 .footer-text {
     position: absolute;
     width: 587px;
     height: 74px;
-    left: 462px;
-    top: 732px;
+    left: 97px;
+    top: 698px;
 
-    font-family: 'Inter';
+
+    font-family: 'Times New Roman';
     font-style: normal;
     font-weight: 400;
     font-size: 29px;
-    line-height: 35px;
+    line-height: 33px;
     display: flex;
     align-items: center;
-    text-align: center;
 
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .button-enter {
-    box-sizing: border-box;
-
     position: absolute;
     width: 404.5px;
     height: 55px;
-    left: 554px;
-    top: 851px;
+    left: 94px;
+    top: 824px;
 
-    background: linear-gradient(90deg, #A18CD1 0%, #FBC2EB 100%);
-    border: 1px solid #000000;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 25px;
-
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 33px;
-    line-height: 40px;
-    color: #000000;
+    font-family: 'Times New Roman';
+    font-style: normal;
 
+    background: #EFEFEF;
+    border: 1px solid #000000;
+    border-radius: 5px;
 }
