@@ -1,6 +1,39 @@
+.topnav {
+    display: flex;
+    width: 50%;
+    max-width: 50%;
+    justify-content: space-between;
+}
+
+.topnav span {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 2pxrem;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
 body {
     background: #000000;
+    background-image: url("./background.png");
+    height: 100vh;
+    width: 200vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
+
+
 
 .image-logo {
     position: absolute;
@@ -50,11 +83,11 @@ body {
 }
 
 .title {
-    position: absolute;
+    position: fixed;
     width: 350px;
     height: 112px;
-    left: 650px;
-    top: 159px;
+    left: 50%;
+    top: 25rem;
 
     font-family: 'Inter';
     font-style: normal;
@@ -69,11 +102,11 @@ body {
 }
 
 .subtitle {
-    position: absolute;
-    width: 473px;
+    position: fixed;
+    width: 30rem;
     height: 74px;
-    left: 519px;
-    top: 263px;
+    left: 45%;
+    top: 35rem;
 
     font-family: 'Inter';
     font-style: normal;
@@ -88,29 +121,27 @@ body {
 }
 
 .input-label-email {
-    position: absolute;
+    position: fixed;
     width: 379px;
     height: 74px;
-    left: 473px;
-    top: 345px;
-
+    left: 45%;
+    top: 45rem;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 33px;
     line-height: 40px;
-    display: flex;
     align-items: center;
 
     color: #FFFFFF;
 }
 
 .input-label-pass {
-    position: absolute;
+    position: fixed;
     width: 379px;
     height: 74px;
-    left: 473px;
-    top: 479px;
+    left: 45%;
+    top: 55rem;
 
     font-family: 'Inter';
     font-style: normal;
@@ -123,13 +154,12 @@ body {
     color: #FFFFFF;
 }
 
-
-
 .input-email {
-    position: relative;
-    width: 50%;
+    position: fixed;
+    width: 30%;
+    max-width: 30%;
     height: 53px;
-    top: 24rem;
+    top: 50rem;
     left: 40%;
     background: #7F7F7F;
     border-radius: 25px;
@@ -137,35 +167,35 @@ body {
 
 .input-pass {
 
-    position: relative;
-    width: 50%;
+    position: fixed;
+    width: 30%;
     height: 53px;
-    top: 30rem;
+    top: 60rem;
     left: 40%;
 
     background: #7F7F7F;
     border-radius: 25px;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 840px) {
     .input-email {
-        width: 100% ;
-        left: 0rem ;
+        width: 100%;
+        max-width: 100%;
+        left: 0%;
     }
 
-    .input-pass{
-        left: 0rem;
+    .input-pass {
+        left: 0%;
         width: 100%;
     }
 }
 
 .button-send {
-
-    position: absolute;
-    width: 214px;
+    position: fixed;
+    min-width: 10rem;
     height: 55px;
-    left: 649px;
-    top: 650px;
+    left: 51%;
+    top: 65rem;
 
     background: linear-gradient(90deg, #A18CD1 0%, #FBC2EB 100%);
     border: 1px solid #000000;
@@ -183,11 +213,13 @@ body {
 }
 
 .footer-text {
-    position: absolute;
-    width: 587px;
+    position: fixed;
+    min-width: 20rem;
+    width: 34rem;
+    max-width: 50%;
     height: 74px;
-    left: 462px;
-    top: 732px;
+    left: 42%;
+    top: 70rem;
 
     font-family: 'Inter';
     font-style: normal;
@@ -203,12 +235,11 @@ body {
 
 .button-enter {
     box-sizing: border-box;
-
-    position: absolute;
-    width: 404.5px;
+    position: fixed;
+    width: 30rem;
     height: 55px;
-    left: 554px;
-    top: 851px;
+    left: 43%;
+    top: 80rem;
 
     background: linear-gradient(90deg, #A18CD1 0%, #FBC2EB 100%);
     border: 1px solid #000000;
@@ -222,4 +253,28 @@ body {
     line-height: 40px;
     color: #000000;
 
+}
+
+@media only screen and (max-width: 840px) {
+
+    .button-send,
+    .button-enter {
+        width: 100%;
+        left: 0%;
+    }
+
+    .footer-text {
+        max-width: 100%;
+        left: 20%;
+        text-align: center;
+    }
+
+    .subtitle {
+        max-width: 100%;
+        left: 15%;
+    }
+
+    body {
+        background-size: cover;
+    }
 }
