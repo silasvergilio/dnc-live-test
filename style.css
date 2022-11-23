@@ -37,49 +37,10 @@ body {
 
 .image-logo {
     position: absolute;
-    width: 165px;
-    height: 29px;
-    left: 673px;
-    top: 25px;
-
-}
-
-.menu {
-    position: absolute;
-    width: 169px;
-    height: 74px;
-    left: 700px;
-    top: 54px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 29px;
-    line-height: 35px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #FFFFFF;
-}
-
-.sign {
-    position: absolute;
-    width: 169px;
-    height: 74px;
-    left: 690px;
-    top: 97px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 29px;
-    line-height: 35px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #FFFFFF;
+    width: 329px;
+    height: 57px;
+    left: 94px;
+    top: 55px;
 }
 
 .title {
@@ -89,16 +50,14 @@ body {
     left: 50%;
     top: 25rem;
 
-    font-family: 'Inter';
+    font-family: 'Times New Roman';
     font-style: normal;
     font-weight: 700;
     font-size: 54px;
-    line-height: 65px;
+    line-height: 62px;
     display: flex;
     align-items: center;
     text-align: center;
-
-    color: #FFFFFF;
 }
 
 .subtitle {
@@ -108,16 +67,15 @@ body {
     left: 45%;
     top: 35rem;
 
-    font-family: 'Inter';
+    font-family: 'Times New Roman';
     font-style: normal;
     font-weight: 400;
     font-size: 29px;
-    line-height: 35px;
+    line-height: 33px;
     display: flex;
     align-items: center;
-    text-align: center;
 
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .input-label-email {
@@ -133,7 +91,7 @@ body {
     line-height: 40px;
     align-items: center;
 
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .input-label-pass {
@@ -143,15 +101,15 @@ body {
     left: 45%;
     top: 55rem;
 
-    font-family: 'Inter';
+    font-family: 'Times New Roman';
     font-style: normal;
     font-weight: 400;
     font-size: 33px;
-    line-height: 40px;
+    line-height: 38px;
     display: flex;
     align-items: center;
 
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .input-email {
@@ -197,19 +155,16 @@ body {
     left: 51%;
     top: 65rem;
 
-    background: linear-gradient(90deg, #A18CD1 0%, #FBC2EB 100%);
-    border: 1px solid #000000;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 25px;
+    top: 601px;
 
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 33px;
-    line-height: 40px;
-    color: #000000;
+    font-family: 'Times New Roman';
+    font-style: normal;
 
-
+    background: #EFEFEF;
+    border: 1px solid #000000;
+    border-radius: 5px;
 }
 
 .footer-text {
@@ -221,16 +176,15 @@ body {
     left: 42%;
     top: 70rem;
 
-    font-family: 'Inter';
+    font-family: 'Times New Roman';
     font-style: normal;
     font-weight: 400;
     font-size: 29px;
-    line-height: 35px;
+    line-height: 33px;
     display: flex;
     align-items: center;
-    text-align: center;
 
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .button-enter {
@@ -246,8 +200,6 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 25px;
 
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 33px;
     line-height: 40px;
